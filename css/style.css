@@ -153,11 +153,12 @@ section.active{
 }
 .home-detail .btn-sci .sci a{
     display: inline-flex;
-    padding: .8rem;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
     border: .2rem solid var(--main-color);
     border-radius: 50%;
-    font-size: 2rem;
-    color: var(--bg-color);
     margin: 0 .8rem;
     transition: .5s;
     
@@ -165,6 +166,12 @@ section.active{
 
 
 
+}
+.home-detail .btn-sci .sci a img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    filter: invert(1);
 }
 
 .home-detail .btn-sci .sci a:hover{
